@@ -82,12 +82,31 @@ h2 {
 	color: black;
 }
 
-.galery {
-	padding: 50px;
-	height: 700px;
+.gallery {
+	padding: 50px 0 200px;
 	background-color: black;
 	color: white;
 }
+
+.gallery-inner {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 20vh);
+	grid-gap: 15px;
+}
+
+.gallery-img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
+}
+
+
+.gallery-item {
+
+}
+
 .contact {
 	background: #e2e2e2;
 	padding: 40px;

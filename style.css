@@ -120,7 +120,6 @@ h3 {
 	background-image: linear-gradient(to top left, #b8c6db 0%, #f5f7fa 94%);
 	color: black;
 
-	/*border: 1px solid #e2e2e2;*/
 	border-radius: 20px;
 
 	font-family: 'Secular One', sans-serif;
@@ -143,10 +142,10 @@ h3 {
 .contact {
 	background: #e2e2e2;
 	color: black;
-	padding: 40px;
+	padding: 10px;
 }
 
-. .contact a {
+.contact a {
 	text-decoration: none;
 	color: black;
 }
